@@ -1,0 +1,14 @@
+{
+  "name": "net_nin_tut",
+  "version": "1.0.0",
+  "description": "Going over the basics of bootstrap with netninja tutorial series",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nicholas A. Jackson",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.1.0"
+  }
+}
