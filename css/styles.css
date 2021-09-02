@@ -11995,8 +11995,18 @@ body {
   color: #BABABA;
 }
 
+.features-group {
+  color: #A1A1A1;
+}
+
 .accordion-button {
   background-color: #F3F3F3;
+  font-weight: bold;
+}
+
+.accordion-button .card {
+  background-color: #F3F3F3;
+  border: none;
 }
 
 .accordion-button:not(.collapsed)::before {
