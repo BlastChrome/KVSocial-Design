@@ -52,7 +52,8 @@ body{
     font-weight: bold;
     .card{
         background-color: #F3F3F3; 
-        border: none;
+        border: none; 
+        margin: 0;
     }
 
 } 
@@ -88,22 +89,17 @@ body{
 
 
 .button{ 
-    // background-color: red;
     justify-content: center;
     align-items: center;
-    .btn-group{
-        
+    .btn-group{   
         display: flex; 
-        // flex-direction: column; 
         align-items: center;
         justify-content: center;  
         max-width: 300px; 
-
     }
 }
 
 .btn-group{
-    // background-color: red; 
     justify-content: center;
 }
 
@@ -120,6 +116,32 @@ body{
     }
     .btn{
         width: 40%;
-    }
+    } 
+
+    .accordion-body {
+        .card{
+            .card-title{
+                
+                display: flex; 
+                align-items: center; 
+                justify-content: center; 
+            }
+            .card-body{
+                text-align: center;
+                
+            }
+        }
+    
+    } 
 } 
 
+@media (max-width: 425px) { 
+    .accordion-body {
+        .card{
+            .card-title{
+                font-weight: bolder;
+            }
+        }
+    
+    } 
+}
