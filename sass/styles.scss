@@ -66,8 +66,9 @@ body{
 );
     transform: rotate(-180deg); 
 }
+
 .accordion-button::after { 
-    width: 0;
+    width: 0; 
 };
 
 .accordion-button::before {
